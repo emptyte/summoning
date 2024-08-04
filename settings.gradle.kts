@@ -1,5 +1,5 @@
 pluginManagement {
-    includeBuild("build-logic")
+  includeBuild("build-logic")
 }
 
 
@@ -7,6 +7,6 @@ rootProject.name = "summoning"
 
 
 sequenceOf("api", "plugin").forEach {
-    include("summoning-$it")
-    project(":summoning-$it").projectDir = file(it)
+  include("summoning-$it")
+  project(":summoning-$it").projectDir = file(it)
 }

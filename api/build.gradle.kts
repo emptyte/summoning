@@ -1,5 +1,5 @@
 plugins {
-    id("summoning.common-conventions")
+  id("summoning.common-conventions")
 }
 
 dependencies {
