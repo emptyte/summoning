@@ -9,6 +9,7 @@ plugins {
 
 dependencies {
   implementation(project(":${rootProject.name}-api"))
+  implementation(libs.configurate.gson)
 }
 
 bukkit {
